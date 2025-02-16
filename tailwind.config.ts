@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'hero-pattern': "url('/img/cabaña.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
