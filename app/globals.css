@@ -5,6 +5,21 @@
   --foreground: #171717;
 }
 
+@layer base {
+  :root {
+    /* * Paleta 'Mountain Volunteer' 
+     * Base: Emerald/Forest Green 
+     */
+    --primary: 150 60% 35%; /* Un verde sólido y natural */
+    --primary-foreground: 0 0% 100%; /* Texto blanco puro */
+
+    --background: 0 0% 100%;
+    --foreground: 150 60% 10%; /* Texto muy oscuro con tinte verde */
+
+    --radius: 1.5rem; /* Bordes redondeados generosos (24px) como la ref */
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
