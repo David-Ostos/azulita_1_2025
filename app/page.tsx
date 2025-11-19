@@ -12,10 +12,14 @@ export const metadata: Metadata = {
     "voluntariado, Mérida, Venezuela, La Azulita, REVerdeSER, agroecología, abejas, huerto, naturaleza, retiro, Montañas Azules, prácticas ancestrales",
   openGraph: {
     title: "REVerdeSER - Voluntariado en las Montañas Azules",
-    description: "Experimenta para reconectar con la naturaleza de tu ser.",
+    description: `Sean bienvenidos a esta experiencia en La Azulita, Mérida. Venezuela.
+
+Un espacio para aprender, compartir y tambien disfrutar.
+
+🍃🌻⛰️🏕️🐝🌞🍯🪻✨🍄`,
     images: [
       {
-        url: "/img/hero.jpg",
+        url: `${process.env.NEXT_PUBLIC_BASE_URL}/img/hero.jpg`,
         width: 1200,
         height: 630,
         alt: "REVerdeSER - Voluntariado en las Montañas Azules",
