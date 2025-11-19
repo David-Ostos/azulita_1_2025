@@ -49,20 +49,13 @@ export default function Home() {
       <main className="min-h-screen">
         {/* Sección Hero */}
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          <div className="z-50 absolute top-16 left-1/2 -translate-x-1/2 flex items-center gap-4">
+          <div className="z-50 absolute top-4 left-4 sm:top-16 sm:left-16 flex items-center gap-4">
             <Image
-              className="rounded-full bg-cover"
-              src="/logos/raices.jpeg"
+              className="bg-gray-200/50 backdrop-blur-xs rounded-full py-8"
+              src="/logos/raices.png"
               alt="Raíces Agroecológicas"
-              width={100}
-              height={100}
-            />
-            <Image
-              className="rounded-full"
-              src="/logos/hecho_por_abejas.jpeg"
-              alt="Hecho por Abejas"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
             />
           </div>
           <div className="absolute inset-0 z-0">
@@ -205,7 +198,7 @@ export default function Home() {
                   Alimentación
                 </h3>
                 <p className="text-gray-700">
-                  Te nutrieras con alimentos frescos y de producción local,
+                  Te nutrirás con alimentos frescos y de producción local,
                   descubriendo nuevas recetas saludables y prácticas.
                 </p>
               </div>
