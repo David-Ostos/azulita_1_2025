@@ -11,9 +11,21 @@ export default function PricingCard() {
           Experiencia Montaña
         </h3>
         <div className="flex items-baseline gap-2">
-          <span className="text-5xl font-extrabold tracking-tight">$222</span>
+          <div className="flex flex-col">
+            <span className="text-2xl font-semibold text-white/60 line-through">
+              $222
+            </span>
+            <span className="text-5xl font-extrabold tracking-tight">
+              $199.80
+            </span>
+          </div>
           <span className="text-lg text-green-100/80 font-medium">
             / Aporte e Inversión
+          </span>
+        </div>
+        <div className="mt-2">
+          <span className="inline-block bg-green-500/20 text-green-100 px-3 py-1 rounded-full text-sm font-semibold">
+            🔥 10% de descuento
           </span>
         </div>
       </div>

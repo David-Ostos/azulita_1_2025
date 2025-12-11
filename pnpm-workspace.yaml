@@ -1,0 +1,7 @@
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclide: null
+
+onlyBuiltDependencies:
+  - sharp
+  - unrs-resolver
