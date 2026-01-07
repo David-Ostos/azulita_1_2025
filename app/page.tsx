@@ -79,7 +79,7 @@ export default function Home() {
               REVerdeSER
             </h1>
             <p className="mb-4 text-xl font-medium sm:text-2xl md:text-3xl">
-              Voluntariado en las Montañas Azules
+              Retiro/Voluntariado en las Montañas Azules
             </p>
             <p className="mb-8 text-lg text-white/90 sm:text-xl md:text-2xl">
               Experimenta para reconectar con la naturaleza de tu ser.
@@ -290,11 +290,12 @@ export default function Home() {
             <div className="space-y-8">
               <div className="rounded-xl bg-white p-8 shadow-md">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-900">
-                  📅 Fecha
+                  📅 Próximas fechas
                 </h3>
-                <p className="text-lg text-gray-700">
-                  Del 12 al 18 de diciembre 2025
-                </p>
+                <div className="space-y-2 text-lg text-gray-700">
+                  <p>Del 14 al 20 de Febrero 2026</p>
+                  <p>Del 28 de marzo al 3 de abril 2026</p>
+                </div>
               </div>
               <div className="rounded-xl bg-white p-8 shadow-md">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-900">
