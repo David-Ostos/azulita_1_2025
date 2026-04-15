@@ -13,10 +13,10 @@ export default function PricingCard() {
         <div className="flex items-baseline gap-2">
           <div className="flex flex-col">
             <span className="text-2xl font-semibold text-white/60 line-through">
-              $222
+              $311.11
             </span>
             <span className="text-5xl font-extrabold tracking-tight">
-              $199.80
+              $280.00
             </span>
           </div>
           <span className="text-lg text-green-100/80 font-medium">
