@@ -293,9 +293,12 @@ export default function Home() {
                   📅 Próximas fechas
                 </h3>
                 <div className="space-y-2 text-lg text-gray-700">
-                  <p>Del 14 al 20 de Febrero 2026</p>
-                  <p>Del 28 de marzo al 3 de abril 2026</p>
+                  <p>Del 19 al 25 de Junio 2026</p>
+                  <p>Del 24 al 30 de Septiembre 2026</p>
                 </div>
+                <p className="mt-4 text-base text-gray-600">
+                  Duración: 6 noches y 7 días.
+                </p>
               </div>
               <div className="rounded-xl bg-white p-8 shadow-md">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-900">
