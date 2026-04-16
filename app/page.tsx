@@ -64,7 +64,7 @@ export default function Home() {
           </div>
           <div className="absolute inset-0 z-0">
             <Image
-              src="/img/hero.jpg"
+              src="/img/portada.jpg"
               alt="Montañas Azules de Mérida, Venezuela"
               fill
               className="object-cover"
@@ -131,7 +131,7 @@ export default function Home() {
               <div className="group rounded-2xl bg-white p-6 shadow-md transition-all hover:shadow-xl">
                 <div className="mb-4 aspect-video overflow-hidden rounded-lg">
                   <Image
-                    src="/img/huerto.jpg"
+                    src="/img/huerta.jpg"
                     alt="Huerto agroecológico en las Montañas Azules"
                     width={400}
                     height={300}
@@ -195,7 +195,7 @@ export default function Home() {
                     alt="Alimentos frescos y de producción local"
                     width={400}
                     height={300}
-                    className="h-full w-full object-cover transition-transform group-hover:scale-105"
+                    className=" h-full object-cover transition-transform group-hover:scale-105"
                   />
                 </div>
                 <h3 className="mb-3 text-xl font-semibold text-gray-900">
