@@ -1,6 +1,8 @@
-minimumReleaseAge: 1440
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
 
-minimumReleaseAgeExclide: null
+minimumReleaseAge: 1440
 
 onlyBuiltDependencies:
   - sharp
