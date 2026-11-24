@@ -293,8 +293,9 @@ export default function Home() {
                   📅 Próximas fechas
                 </h3>
                 <div className="space-y-2 text-lg text-gray-700">
-                  <p>Del 19 al 25 de Junio 2026</p>
-                  <p>Del 24 al 30 de Septiembre 2026</p>
+                  <p>Del 12 al 18 de diciembre 2026</p>
+                  <p>Del 6 al 12 de febrero 2027</p>
+                  <p>Del 20 al 26 de marzo 2027</p>
                 </div>
                 <p className="mt-4 text-base text-gray-600">
                   Duración: 6 noches y 7 días.
